@@ -19,7 +19,7 @@ connectDB();
 
 // Default route
 app.get('/', (req, res) => {
-    res.send("Hello world");        
+    res.send("<h1>Hello From Server</h1>");        
 });
 
 // Routes
